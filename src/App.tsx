@@ -1,10 +1,10 @@
 import './App.css';
-import MyButton from "./components/example";
+import Example from "./components/example.component";
 
 function App() {
   return (
     <div>
-      <MyButton title="I'm a disabled button" disabled={false}/>
+      <Example title="I'm a disabled button" disabled={false}/>
     </div>
   );
 }
